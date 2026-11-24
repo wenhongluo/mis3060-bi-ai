@@ -1,87 +1,142 @@
-"""Wildcat Capital data layer for Streamlit apps (MIS3060 Weeks 13-14).
+"""Wildcat Capital data layer for the MIS3060 Streamlit dashboard.
 
-Load the eight Clean star-schema tables once, aggregate them to ONE small monthly
-table, and compute every KPI from that table with plain pandas functions.
-Balances (AUM) are never added across months; rates are recomputed from sums.
+What this file does:
+  1. load_tables()       reads the Wildcat CSV files from data/wildcat
+  2. build_monthly()     squeezes them into ONE small monthly table
+  3. the KPI functions   each turn a (filtered) monthly table into one number
+  4. money()             formats a number as $12.73B / $48.7M / $512K
+
+The app should only import this file. It should never read the CSVs itself.
 """
 from pathlib import Path
-import os
+
 import pandas as pd
 
-DATA_DIR = Path(os.environ.get("WILDCAT_DATA_DIR", Path(__file__).parent / "data" / "wildcat"))
+# The data folder is found relative to THIS file (ice13/data/wildcat),
+# so the code works on any computer. No C:\Users\... paths.
+DATA_DIR = Path(__file__).resolve().parent / "data" / "wildcat"
 
 
-def load_tables(data_dir: Path = DATA_DIR) -> dict:
-    """Read the Clean CSVs with explicit types (keys as numbers, dates as dates)."""
-    dates = {"fact_portfolio_snapshot": ["snapshot_date"], "fact_fees": ["fee_date"],
-             "fact_transactions": ["txn_date"], "dim_client": ["client_since"]}
-    names = ["dim_advisor", "dim_client", "fact_portfolio_snapshot", "fact_fees", "fact_transactions"]
-    t = {n: pd.read_csv(Path(data_dir) / f"{n}.csv", parse_dates=dates.get(n, []),
-                        dtype={"zip_code": str} if n == "dim_client" else None) for n in names}
-    t["dim_advisor"]["advisor"] = t["dim_advisor"]["first_name"] + " " + t["dim_advisor"]["last_name"]
-    return t
+# ---------------------------------------------------------------------------
+# 1. Load the raw tables
+# ---------------------------------------------------------------------------
+def load_tables(data_dir=DATA_DIR):
+    """Read the five CSVs the dashboard needs and return them in a dictionary.
+
+    Date columns are read as real dates (not text) so we can group by month.
+    """
+    data_dir = Path(data_dir)
+    tables = {
+        "dim_advisor": pd.read_csv(data_dir / "dim_advisor.csv"),
+        "dim_client": pd.read_csv(data_dir / "dim_client.csv",
+                                  parse_dates=["client_since"],
+                                  dtype={"zip_code": str}),  # keep leading zeros
+        "fact_portfolio_snapshot": pd.read_csv(data_dir / "fact_portfolio_snapshot.csv",
+                                               parse_dates=["snapshot_date"]),
+        "fact_fees": pd.read_csv(data_dir / "fact_fees.csv",
+                                 parse_dates=["fee_date"]),
+        "fact_transactions": pd.read_csv(data_dir / "fact_transactions.csv",
+                                         parse_dates=["txn_date"]),
+    }
+    return tables
 
 
-def build_monthly(t: dict) -> pd.DataFrame:
-    """One row per month x client tier x advisor (~4,500 rows): everything the app needs."""
-    tier = t["dim_client"][["client_id", "client_tier"]]
+def _to_month(dates):
+    """Turn any date into the first day of its month (e.g. 2023-04-17 -> 2023-04-01)."""
+    return dates.dt.to_period("M").dt.to_timestamp()
+
+
+# ---------------------------------------------------------------------------
+# 2. Build the one monthly table
+# ---------------------------------------------------------------------------
+def build_monthly(tables):
+    """Return one row per month x client tier x advisor.
+
+    Columns: month, year, client_tier, advisor_id, advisor, region,
+             ending_aum, clients, fees, fee_basis, net_flows
+    """
     keys = ["month", "client_tier", "advisor_id"]
 
-    s = t["fact_portfolio_snapshot"].merge(tier, on="client_id")
-    s["month"] = s["snapshot_date"]
-    aum = s.groupby(keys).agg(ending_aum=("aum", "sum"), clients=("client_id", "nunique"))
+    # Each client's tier lives in dim_client; we attach it to every fact table.
+    tier = tables["dim_client"][["client_id", "client_tier"]]
 
-    f = t["fact_fees"].merge(tier, on="client_id")
-    f["month"] = f["fee_date"]
-    fees = f.groupby(keys).agg(fees=("amount", "sum"), fee_basis=("aum_basis", "sum"))
+    # --- AUM (a balance): total AUM and number of clients in each month ---
+    snap = tables["fact_portfolio_snapshot"].merge(tier, on="client_id")
+    snap["month"] = _to_month(snap["snapshot_date"])
+    aum = snap.groupby(keys).agg(
+        ending_aum=("aum", "sum"),          # adding across clients in ONE month is fine
+        clients=("client_id", "nunique"),
+    )
 
-    x = t["fact_transactions"].merge(tier, on="client_id")
-    x = x[x["txn_type"].isin(["Deposit", "Withdrawal"])].copy()
-    x["month"] = x["txn_date"].values.astype("datetime64[M]")          # transactions are daily: roll to month start
-    x["signed"] = x["amount"].where(x["txn_type"] == "Deposit", -x["amount"])
-    flows = x.groupby(keys).agg(net_flows=("signed", "sum"))
+    # --- Fees: dollars charged and the AUM they were charged on ---
+    fee = tables["fact_fees"].merge(tier, on="client_id")
+    fee["month"] = _to_month(fee["fee_date"])
+    fees = fee.groupby(keys).agg(
+        fees=("amount", "sum"),
+        fee_basis=("aum_basis", "sum"),
+    )
 
-    m = aum.join(fees, how="outer").join(flows, how="outer").fillna(0).reset_index()
-    m = m.merge(t["dim_advisor"][["advisor_id", "advisor", "region"]], on="advisor_id")
-    m["year"] = m["month"].dt.year
-    return m
+    # --- Net flows: deposits count +, withdrawals count -, everything else ignored ---
+    txn = tables["fact_transactions"].merge(tier, on="client_id")
+    txn = txn[txn["txn_type"].isin(["Deposit", "Withdrawal"])].copy()
+    txn["month"] = _to_month(txn["txn_date"])  # daily dates -> month, same format as above
+    txn["signed_amount"] = txn["amount"].where(txn["txn_type"] == "Deposit", -txn["amount"])
+    flows = txn.groupby(keys).agg(net_flows=("signed_amount", "sum"))
+
+    # --- Put the three pieces side by side; a missing piece means 0 ---
+    monthly = aum.join(fees, how="outer").join(flows, how="outer").fillna(0).reset_index()
+    monthly["clients"] = monthly["clients"].astype(int)
+
+    # --- Add advisor name and region from dim_advisor ---
+    adv = tables["dim_advisor"].copy()
+    adv["advisor"] = adv["first_name"] + " " + adv["last_name"]
+    monthly = monthly.merge(adv[["advisor_id", "advisor", "region"]], on="advisor_id", how="left")
+
+    monthly["year"] = monthly["month"].dt.year
+
+    columns = ["month", "year", "client_tier", "advisor_id", "advisor", "region",
+               "ending_aum", "clients", "fees", "fee_basis", "net_flows"]
+    return monthly[columns].sort_values(keys).reset_index(drop=True)
 
 
-# ---------- KPI functions: always pass an already-filtered frame ----------
-def ending_aum(df: pd.DataFrame) -> float:
-    """Balance at the LAST month in the frame (semi-additive), not a sum over months."""
-    if df.empty:
+# ---------------------------------------------------------------------------
+# 3. KPI functions: pass in an ALREADY-FILTERED monthly table, get one number
+# ---------------------------------------------------------------------------
+def ending_aum(df):
+    """AUM in the LAST month that has AUM. Balances are never added across months."""
+    with_aum = df[df["ending_aum"] > 0]
+    if with_aum.empty:
         return 0.0
-    last = df.loc[df["ending_aum"] > 0, "month"].max()
-    return float(df.loc[df["month"] == last, "ending_aum"].sum())
+    last_month = with_aum["month"].max()
+    return float(with_aum.loc[with_aum["month"] == last_month, "ending_aum"].sum())
 
 
-def ending_clients(df: pd.DataFrame) -> int:
-    if df.empty:
-        return 0
-    last = df.loc[df["ending_aum"] > 0, "month"].max()
-    return int(df.loc[df["month"] == last, "clients"].sum())
-
-
-def total_fees(df: pd.DataFrame) -> float:
+def total_fees(df):
+    """Sum of all fee dollars in the table."""
     return float(df["fees"].sum())
 
 
-def net_flows(df: pd.DataFrame) -> float:
+def net_flows(df):
+    """Deposits minus withdrawals over every month in the table."""
     return float(df["net_flows"].sum())
 
 
-def effective_fee_rate_bps(df: pd.DataFrame) -> float:
-    """Annualized fees per dollar of fee basis, recomputed from sums (never averaged)."""
+def effective_fee_rate_bps(df):
+    """Annualized fee rate in basis points, recomputed from sums (never an average of rates)."""
     basis = df["fee_basis"].sum()
-    return float(df["fees"].sum() * 12 * 10_000 / basis) if basis else float("nan")
+    if basis == 0:
+        return float("nan")  # no fee basis -> rate is undefined
+    return float(df["fees"].sum() * 12 * 10_000 / basis)
 
 
-def money(x: float) -> str:
-    """$12.73B / $48.7M / $512K."""
-    a = abs(x)
-    if a >= 1e9:
-        return f"${x/1e9:,.2f}B"
-    if a >= 1e6:
-        return f"${x/1e6:,.1f}M"
-    return f"${x/1e3:,.0f}K"
+# ---------------------------------------------------------------------------
+# 4. Formatting helper
+# ---------------------------------------------------------------------------
+def money(x):
+    """Format dollars as $12.73B, $48.7M or $512K."""
+    size = abs(x)
+    if size >= 1e9:
+        return f"${x / 1e9:,.2f}B"
+    if size >= 1e6:
+        return f"${x / 1e6:,.1f}M"
+    return f"${x / 1e3:,.0f}K"
