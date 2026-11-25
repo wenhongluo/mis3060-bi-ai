@@ -1,0 +1,875 @@
+episode_date,guest,ticker,company
+2025-01-02,Joshua Brown,SBUX,Starbucks Corporation
+2025-01-02,Joseph Terranova,CPNG,"Coupang, Inc."
+2025-01-02,Liz Young,IYM,iShares U.S. Basic Materials ETF
+2025-01-02,Jim Lebenthal,AMAT,"Applied Materials, Inc."
+2025-01-03,Bryn Talkington,UBER,"Uber Technologies, Inc."
+2025-01-03,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-01-03,Jim Lebenthal,XOM,ExxonMobil Holdings Corporation
+2025-01-03,Kevin Simpson,HOOD,"Robinhood Markets, Inc."
+2025-01-06,Joseph Terranova,TER,"Teradyne, Inc."
+2025-01-06,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-01-06,Jim Lebenthal,RIG,Transocean Ltd.
+2025-01-06,Bryn Talkington,DELL,Dell Technologies Inc.
+2025-01-07,Joshua Brown,SHAK,Shake Shack Inc.
+2025-01-07,Stephanie Link,MS,Morgan Stanley
+2025-01-07,Sarat Sethi,CMCSA,Comcast Corporation
+2025-01-07,Brian Belski,SNV,Synovus Financial Corp.
+2025-01-08,Joseph Terranova,BSX,Boston Scientific Corporation
+2025-01-08,Shannon Saccocia,IYG,iShares U.S. Financial Services ETF
+2025-01-08,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-01-08,Jason Snipe,APO,"Apollo Global Management, Inc."
+2025-01-10,Joshua Brown,BKR,Baker Hughes Company
+2025-01-10,Joseph Terranova,DOCU,"DocuSign, Inc."
+2025-01-10,Jim Lebenthal,C,Citigroup Inc.
+2025-01-10,Bill Baruch,META,"Meta Platforms, Inc."
+2025-01-13,Joshua Brown,AMZN,"Amazon.com, Inc."
+2025-01-13,Joseph Terranova,JPM,JPMorgan Chase & Co.
+2025-01-13,Stephen Weiss,LDOS,"Leidos Holdings, Inc."
+2025-01-14,Joshua Brown,RDDT,"Reddit, Inc."
+2025-01-14,Stephanie Link,LLY,Eli Lilly and Company
+2025-01-14,Jim Lebenthal,DAL,"Delta Air Lines, Inc."
+2025-01-14,Jason Snipe,TMO,Thermo Fisher Scientific Inc.
+2025-01-15,Joseph Terranova,APP,AppLovin Corporation
+2025-01-15,Liz Young,IYH,iShares U.S. Healthcare ETF
+2025-01-15,Jenny Harrington,SWK,"Stanley Black & Decker, Inc."
+2025-01-15,Stephen Weiss,QXO,"QXO, Inc."
+2025-01-17,Bryn Talkington,NVDA,NVIDIA Corporation
+2025-01-17,Stephen Weiss,CRH,CRH plc
+2025-01-17,Kevin Simpson,HOOD,"Robinhood Markets, Inc."
+2025-01-17,Brenda Vingiello,SNOW,Snowflake Inc.
+2025-01-21,Joshua Brown,DIS,The Walt Disney Company
+2025-01-21,Joseph Terranova,XYZ,"Block, Inc."
+2025-01-21,Stephanie Link,UNH,UnitedHealth Group Incorporated
+2025-01-21,Brian Belski,AMG,"Affiliated Managers Group, Inc."
+2025-01-22,Joseph Terranova,APP,AppLovin Corporation
+2025-01-22,Shannon Saccocia,IYC,iShares US Consumer Discretionary ETF
+2025-01-22,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-01-23,Joshua Brown,NDAQ,"Nasdaq, Inc."
+2025-01-23,Jenny Harrington,CWEN,"Clearway Energy, Inc."
+2025-01-23,Bill Baruch,FCX,Freeport-McMoRan Inc.
+2025-01-24,Bryn Talkington,DOCU,"DocuSign, Inc."
+2025-01-24,Jason Snipe,EME,"EMCOR Group, Inc."
+2025-01-24,Jim Lebenthal,UNH,UnitedHealth Group Incorporated
+2025-01-24,Joseph Terranova,GWRE,"Guidewire Software, Inc."
+2025-01-27,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-01-27,Bryn Talkington,UBER,"Uber Technologies, Inc."
+2025-01-27,Joseph Terranova,BR,"Broadridge Financial Solutions, Inc."
+2025-01-27,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-01-28,Jim Lebenthal,CSCO,"Cisco Systems, Inc."
+2025-01-28,Stephanie Link,BA,The Boeing Company
+2025-01-28,Joseph Terranova,CRWD,"CrowdStrike Holdings, Inc."
+2025-01-28,Shannon Saccocia,IYH,iShares U.S. Healthcare ETF
+2025-01-29,Joseph Terranova,CMG,"Chipotle Mexican Grill, Inc."
+2025-01-29,Karen Firestone,FTV,Fortive Corporation
+2025-01-29,Jason Snipe,PANW,"Palo Alto Networks, Inc."
+2025-01-29,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-01-30,Joshua Brown,BKR,Baker Hughes Company
+2025-01-30,Liz Young,IGV,iShares Expanded Tech-Software Sector ETF
+2025-01-30,Kevin Simpson,RTX,RTX Corporation
+2025-01-30,Jim Lebenthal,GOOGL,Alphabet Inc.
+2025-01-31,Stephanie Link,SWK,"Stanley Black & Decker, Inc."
+2025-01-31,Jenny Harrington,UPS,"United Parcel Service, Inc."
+2025-01-31,Rob Sechan,AMZN,"Amazon.com, Inc."
+2025-02-03,Joseph Terranova,WMT,Walmart Inc.
+2025-02-03,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-02-03,Jim Lebenthal,CSCO,"Cisco Systems, Inc."
+2025-02-04,Joshua Brown,SBUX,Starbucks Corporation
+2025-02-04,Jason Snipe,AZO,"AutoZone, Inc."
+2025-02-04,Brian Belski,SONO,"Sonos, Inc."
+2025-02-04,Stephanie Link,SWK,"Stanley Black & Decker, Inc."
+2025-02-05,Bryn Talkington,ET,Energy Transfer LP
+2025-02-05,Joseph Terranova,AXON,"Axon Enterprise, Inc."
+2025-02-05,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-02-05,Jim Lebenthal,VRTX,Vertex Pharmaceuticals Incorporated
+2025-02-06,Stephanie Link,BA,The Boeing Company
+2025-02-06,Jason Snipe,ORCL,Oracle Corporation
+2025-02-06,Joseph Terranova,ZM,"Zoom Communications, Inc."
+2025-02-06,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-02-07,Joshua Brown,RDDT,"Reddit, Inc."
+2025-02-07,Bryn Talkington,DELL,Dell Technologies Inc.
+2025-02-07,Jenny Harrington,APTV,Aptiv PLC
+2025-02-07,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-02-10,Rob Sechan,NRG,"NRG Energy, Inc."
+2025-02-10,Jim Lebenthal,MP,MP Materials Corp.
+2025-02-10,Amy Raskin,CDNA,"CareDx, Inc."
+2025-02-10,Joseph Terranova,APP,AppLovin Corporation
+2025-02-11,Joshua Brown,TTD,"The Trade Desk, Inc."
+2025-02-11,Jenny Harrington,DVN,Devon Energy Corporation
+2025-02-11,Jim Lebenthal,AZN,AstraZeneca PLC
+2025-02-11,Stephen Weiss,LDOS,"Leidos Holdings, Inc."
+2025-02-12,Joseph Terranova,SPOT,Spotify Technology S.A.
+2025-02-12,Shannon Saccocia,IYH,iShares U.S. Healthcare ETF
+2025-02-12,Stephen Weiss,VRT,Vertiv Holdings Co
+2025-02-13,Joshua Brown,SBUX,Starbucks Corporation
+2025-02-13,Kevin Simpson,AEM,Agnico Eagle Mines Limited
+2025-02-13,Bill Baruch,FCX,Freeport-McMoRan Inc.
+2025-02-14,Jason Snipe,GS,"The Goldman Sachs Group, Inc."
+2025-02-14,Joshua Brown,TOST,"Toast, Inc."
+2025-02-14,Kevin Simpson,CME,CME Group Inc.
+2025-02-18,Joshua Brown,TOST,"Toast, Inc."
+2025-02-18,Joseph Terranova,ISRG,"Intuitive Surgical, Inc."
+2025-02-18,Sarat Sethi,CRM,"Salesforce, Inc."
+2025-02-18,Brian Belski,NXST,"Nexstar Media Group, Inc."
+2025-02-19,Joseph Terranova,GRMN,Garmin Ltd.
+2025-02-19,Karen Firestone,CNX,CNX Resources Corporation
+2025-02-19,Jason Snipe,NOW,"ServiceNow, Inc."
+2025-02-19,Stephen Weiss,GOOGL,Alphabet Inc.
+2025-02-20,Joseph Terranova,XOM,ExxonMobil Holdings Corporation
+2025-02-20,Karen Firestone,TMO,Thermo Fisher Scientific Inc.
+2025-02-20,Bill Baruch,LNG,"Cheniere Energy, Inc."
+2025-02-21,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-02-21,Jenny Harrington,CAG,"Conagra Brands, Inc."
+2025-02-21,Jim Lebenthal,MP,MP Materials Corp.
+2025-02-21,Bryn Talkington,UBER,"Uber Technologies, Inc."
+2025-02-24,Joseph Terranova,PGR,The Progressive Corporation
+2025-02-24,Anastasia Amoroso,DTCR,Global X Data Center & Digital Infrastructure ETF
+2025-02-24,Stephen Weiss,KWEB,KraneShares CSI China Internet ETF
+2025-02-25,Joshua Brown,SBUX,Starbucks Corporation
+2025-02-25,Jenny Harrington,WU,The Western Union Company
+2025-02-25,Jim Lebenthal,AZN,AstraZeneca PLC
+2025-02-26,Joseph Terranova,IBKR,"Interactive Brokers Group, Inc."
+2025-02-26,Liz Young,IGV,iShares Expanded Tech-Software Sector ETF
+2025-02-26,Jim Lebenthal,CSCO,"Cisco Systems, Inc."
+2025-02-26,Jason Snipe,FISV,"Fiserv, Inc."
+2025-02-27,Bryn Talkington,BRK-A,Berkshire Hathaway Inc.
+2025-02-27,Joshua Brown,MMM,3M Company
+2025-02-27,Rob Sechan,AMGN,Amgen Inc.
+2025-02-27,Malcolm Ethridge,PLD,"Prologis, Inc."
+2025-02-28,Stephanie Link,FANG,"Diamondback Energy, Inc."
+2025-02-28,Jim Lebenthal,DIS,The Walt Disney Company
+2025-02-28,Jenny Harrington,TRIP,"Tripadvisor, Inc."
+2025-02-28,Kevin Simpson,CRM,"Salesforce, Inc."
+2025-03-03,Joseph Terranova,TW,Tradeweb Markets Inc.
+2025-03-03,Shannon Saccocia,IYH,iShares U.S. Healthcare ETF
+2025-03-03,Jason Snipe,ABBV,AbbVie Inc.
+2025-03-03,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-03-04,Joshua Brown,MCD,McDonald's Corporation
+2025-03-04,Stephanie Link,WFC,Wells Fargo & Company
+2025-03-04,Karen Firestone,CHTR,"Charter Communications, Inc."
+2025-03-04,Brian Belski,ONON,On Holding AG
+2025-03-05,Joseph Terranova,BABA,Alibaba Group Holding Limited
+2025-03-05,Karen Firestone,SPGI,S&P Global Inc.
+2025-03-05,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-03-06,Joshua Brown,PFE,Pfizer Inc.
+2025-03-06,Bryn Talkington,JEPI,JPMorgan Equity Premium Income ETF
+2025-03-06,Joseph Terranova,PAYX,"Paychex, Inc."
+2025-03-10,Joseph Terranova,CME,CME Group Inc.
+2025-03-10,Stephanie Link,GAP,"The Gap, Inc."
+2025-03-10,Jim Lebenthal,XOM,ExxonMobil Holdings Corporation
+2025-03-10,Sarat Sethi,DAL,"Delta Air Lines, Inc."
+2025-03-11,Joshua Brown,NFLX,"Netflix, Inc."
+2025-03-11,Bryn Talkington,COWZ,Pacer US Cash Cows 100 ETF
+2025-03-11,Stephen Weiss,META,"Meta Platforms, Inc."
+2025-03-11,Jim Lebenthal,VRTX,Vertex Pharmaceuticals Incorporated
+2025-03-11,Joseph Terranova,IBKR,"Interactive Brokers Group, Inc."
+2025-03-12,Joseph Terranova,AMZN,"Amazon.com, Inc."
+2025-03-12,Shannon Saccocia,VEA,Vanguard FTSE Developed Markets Index Fund ETF Shares
+2025-03-12,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-03-12,Rob Sechan,NVDA,NVIDIA Corporation
+2025-03-13,Bryn Talkington,V,Visa Inc.
+2025-03-13,Joshua Brown,INVH,Invitation Homes Inc.
+2025-03-13,Kevin Simpson,LLY,Eli Lilly and Company
+2025-03-13,Jason Snipe,BX,Blackstone Inc.
+2025-03-14,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-03-14,Stephen Weiss,META,"Meta Platforms, Inc."
+2025-03-14,Amy Raskin,FNV,Franco-Nevada Corporation
+2025-03-14,Rob Sechan,NRG,"NRG Energy, Inc."
+2025-03-17,Joseph Terranova,APO,"Apollo Global Management, Inc."
+2025-03-17,Jim Lebenthal,UNH,UnitedHealth Group Incorporated
+2025-03-17,Bryn Talkington,KKR,KKR & Co. Inc.
+2025-03-18,Joshua Brown,SBUX,Starbucks Corporation
+2025-03-18,Joseph Terranova,EQT,EQT Corporation
+2025-03-18,Bill Baruch,HUBS,"HubSpot, Inc."
+2025-03-19,Sarat Sethi,MS,Morgan Stanley
+2025-03-19,Jim Lebenthal,CRH,CRH plc
+2025-03-19,Stephen Weiss,MSFT,Microsoft Corporation
+2025-03-20,Joshua Brown,CVX,Chevron Corporation
+2025-03-20,Jim Lebenthal,UNH,UnitedHealth Group Incorporated
+2025-03-20,Jason Snipe,FISV,"Fiserv, Inc."
+2025-03-21,Joseph Terranova,YUMC,"Yum China Holdings, Inc."
+2025-03-21,Stephen Weiss,META,"Meta Platforms, Inc."
+2025-03-21,Bryn Talkington,HOOD,"Robinhood Markets, Inc."
+2025-03-21,Joshua Brown,KNSL,"Kinsale Capital Group, Inc."
+2025-03-24,Joseph Terranova,CHKP,Check Point Software Technologies Ltd.
+2025-03-24,Jim Lebenthal,GOOGL,Alphabet Inc.
+2025-03-24,Stephen Weiss,VRT,Vertiv Holdings Co
+2025-03-24,Bryn Talkington,DELL,Dell Technologies Inc.
+2025-03-25,Joshua Brown,CVX,Chevron Corporation
+2025-03-25,Stephanie Link,PANW,"Palo Alto Networks, Inc."
+2025-03-25,Jim Lebenthal,WYNN,"Wynn Resorts, Limited"
+2025-03-26,Joseph Terranova,JPM,JPMorgan Chase & Co.
+2025-03-26,Jenny Harrington,CCI,Crown Castle Inc.
+2025-03-26,Karen Firestone,WAB,Westinghouse Air Brake Technologies Corporation
+2025-03-26,Brian Belski,CHWY,"Chewy, Inc."
+2025-03-27,Joshua Brown,NFLX,"Netflix, Inc."
+2025-03-27,Shannon Saccocia,GS,"The Goldman Sachs Group, Inc."
+2025-03-27,Jim Lebenthal,VRTX,Vertex Pharmaceuticals Incorporated
+2025-03-28,Stephanie Link,SNOW,Snowflake Inc.
+2025-03-28,Jim Lebenthal,ABBV,AbbVie Inc.
+2025-03-28,Kevin Simpson,META,"Meta Platforms, Inc."
+2025-03-28,Malcolm Ethridge,PYPL,"PayPal Holdings, Inc."
+2025-03-31,Joseph Terranova,XOM,ExxonMobil Holdings Corporation
+2025-03-31,Jim Lebenthal,LMT,Lockheed Martin Corporation
+2025-03-31,Shannon Saccocia,XLI,State Street Industrial Select Sector SPDR ETF
+2025-04-01,Joshua Brown,KNSL,"Kinsale Capital Group, Inc."
+2025-04-01,Stephanie Link,UNH,UnitedHealth Group Incorporated
+2025-04-01,Jim Lebenthal,PCG,PG&E Corporation
+2025-04-02,Joseph Terranova,KLAC,KLA Corporation
+2025-04-02,Stephen Weiss,GOOGL,Alphabet Inc.
+2025-04-02,Bill Baruch,AMZN,"Amazon.com, Inc."
+2025-04-02,Rob Sechan,GILD,"Gilead Sciences, Inc."
+2025-04-03,Joshua Brown,KNSL,"Kinsale Capital Group, Inc."
+2025-04-03,Jenny Harrington,SBRA,"Sabra Health Care REIT, Inc."
+2025-04-03,Joseph Terranova,AMGN,Amgen Inc.
+2025-04-04,Jim Lebenthal,JPM,JPMorgan Chase & Co.
+2025-04-04,Jason Snipe,AMZN,"Amazon.com, Inc."
+2025-04-04,Bryn Talkington,RH,RH
+2025-04-07,Joseph Terranova,KLAC,KLA Corporation
+2025-04-07,Jim Lebenthal,BRK-B,Berkshire Hathaway Inc.
+2025-04-07,Brian Belski,FCNCA,"First Citizens BancShares, Inc."
+2025-04-08,Joshua Brown,OTIS,Otis Worldwide Corporation
+2025-04-08,Jenny Harrington,D,"Dominion Energy, Inc."
+2025-04-08,Karen Firestone,MSFT,Microsoft Corporation
+2025-04-08,Jason Snipe,PANW,"Palo Alto Networks, Inc."
+2025-04-09,Joseph Terranova,QQQ,Invesco QQQ Trust
+2025-04-09,Karen Firestone,UNH,UnitedHealth Group Incorporated
+2025-04-09,Bryn Talkington,META,"Meta Platforms, Inc."
+2025-04-09,Stephen Weiss,META,"Meta Platforms, Inc."
+2025-04-10,Joshua Brown,CRWD,"CrowdStrike Holdings, Inc."
+2025-04-10,Stephanie Link,PANW,"Palo Alto Networks, Inc."
+2025-04-10,Bryn Talkington,HOOD,"Robinhood Markets, Inc."
+2025-04-10,Brenda Vingiello,VRTX,Vertex Pharmaceuticals Incorporated
+2025-04-11,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-04-11,Jim Lebenthal,ABBV,AbbVie Inc.
+2025-04-11,Brenda Vingiello,META,"Meta Platforms, Inc."
+2025-04-11,Kevin Simpson,TJX,"The TJX Companies, Inc."
+2025-04-14,Rob Sechan,JPM,JPMorgan Chase & Co.
+2025-04-14,Sarat Sethi,MS,Morgan Stanley
+2025-04-14,Stephen Weiss,FTAI,FTAI Aviation Ltd.
+2025-04-14,Joseph Terranova,PGR,The Progressive Corporation
+2025-04-15,Joshua Brown,NFLX,"Netflix, Inc."
+2025-04-15,Joseph Terranova,SPOT,Spotify Technology S.A.
+2025-04-15,Stephanie Link,SCHW,The Charles Schwab Corporation
+2025-04-15,Shannon Saccocia,VEA,Vanguard FTSE Developed Markets Index Fund ETF Shares
+2025-04-16,Joseph Terranova,DDOG,"Datadog, Inc."
+2025-04-16,Anastasia Amoroso,IGV,iShares Expanded Tech-Software Sector ETF
+2025-04-16,Kevin Simpson,HOOD,"Robinhood Markets, Inc."
+2025-04-17,Joshua Brown,TOST,"Toast, Inc."
+2025-04-17,Jenny Harrington,SWK,"Stanley Black & Decker, Inc."
+2025-04-17,Jim Lebenthal,C,Citigroup Inc.
+2025-04-17,Bill Baruch,BRK-B,Berkshire Hathaway Inc.
+2025-04-21,Joseph Terranova,AMGN,Amgen Inc.
+2025-04-21,Amy Raskin,FNV,Franco-Nevada Corporation
+2025-04-21,Brian Belski,TTWO,"Take-Two Interactive Software, Inc."
+2025-04-22,Joshua Brown,MMM,3M Company
+2025-04-22,Stephanie Link,ISRG,"Intuitive Surgical, Inc."
+2025-04-22,Jim Lebenthal,ABBV,AbbVie Inc.
+2025-04-22,Rob Sechan,CRM,"Salesforce, Inc."
+2025-04-23,Joseph Terranova,HWM,Howmet Aerospace Inc.
+2025-04-23,Jenny Harrington,WU,The Western Union Company
+2025-04-23,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-04-23,Sarat Sethi,CRM,"Salesforce, Inc."
+2025-04-24,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-04-24,Jim Lebenthal,AMAT,"Applied Materials, Inc."
+2025-04-24,Jason Snipe,PANW,"Palo Alto Networks, Inc."
+2025-04-24,Bryn Talkington,KKR,KKR & Co. Inc.
+2025-04-25,Joseph Terranova,RSG,"Republic Services, Inc."
+2025-04-25,Stephanie Link,PWR,"Quanta Services, Inc."
+2025-04-25,Malcolm Ethridge,DLR,"Digital Realty Trust, Inc."
+2025-04-25,Kevin Simpson,TJX,"The TJX Companies, Inc."
+2025-04-28,Joseph Terranova,CHKP,Check Point Software Technologies Ltd.
+2025-04-28,Stephen Weiss,GS,"The Goldman Sachs Group, Inc."
+2025-04-28,Jim Lebenthal,QCOM,QUALCOMM Incorporated
+2025-04-28,Bryn Talkington,APO,"Apollo Global Management, Inc."
+2025-04-29,Stephanie Link,SHW,The Sherwin-Williams Company
+2025-04-29,Joshua Brown,NFLX,"Netflix, Inc."
+2025-04-29,Jason Snipe,ABBV,AbbVie Inc.
+2025-04-29,Shannon Saccocia,XLI,State Street Industrial Select Sector SPDR ETF
+2025-04-30,Karen Firestone,SPGI,S&P Global Inc.
+2025-04-30,Joseph Terranova,CME,CME Group Inc.
+2025-04-30,Jim Lebenthal,BRK-B,Berkshire Hathaway Inc.
+2025-04-30,Stephen Weiss,VRTX,Vertex Pharmaceuticals Incorporated
+2025-05-01,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-05-01,Jenny Harrington,SHEL,Shell plc
+2025-05-01,Joseph Terranova,DASH,"DoorDash, Inc."
+2025-05-02,Stephanie Link,META,"Meta Platforms, Inc."
+2025-05-02,Kevin Simpson,TJX,"The TJX Companies, Inc."
+2025-05-02,Sarat Sethi,DAL,"Delta Air Lines, Inc."
+2025-05-02,Rob Sechan,BX,Blackstone Inc.
+2025-05-05,Joseph Terranova,SYK,Stryker Corporation
+2025-05-05,Jim Lebenthal,LMT,Lockheed Martin Corporation
+2025-05-05,Brian Belski,ROK,"Rockwell Automation, Inc."
+2025-05-06,Jenny Harrington,O,Realty Income Corporation
+2025-05-06,Jason Snipe,PANW,"Palo Alto Networks, Inc."
+2025-05-06,Malcolm Ethridge,ZS,"Zscaler, Inc."
+2025-05-06,Bryn Talkington,HOOD,"Robinhood Markets, Inc."
+2025-05-07,Joshua Brown,SHAK,Shake Shack Inc.
+2025-05-07,Joseph Terranova,SPOT,Spotify Technology S.A.
+2025-05-07,Shannon Saccocia,XLF,State Street Financial Select Sector SPDR ETF
+2025-05-07,Jim Lebenthal,WYNN,"Wynn Resorts, Limited"
+2025-05-08,Joshua Brown,JPM,JPMorgan Chase & Co.
+2025-05-08,Karen Firestone,BX,Blackstone Inc.
+2025-05-08,Stephen Weiss,LDOS,"Leidos Holdings, Inc."
+2025-05-08,Bill Baruch,MSFT,Microsoft Corporation
+2025-05-09,Stephen Weiss,VRTX,Vertex Pharmaceuticals Incorporated
+2025-05-09,Jim Lebenthal,MSFT,Microsoft Corporation
+2025-05-09,Brenda Vingiello,WYNN,"Wynn Resorts, Limited"
+2025-05-09,Kevin Simpson,PLTR,Palantir Technologies Inc.
+2025-05-12,Joseph Terranova,AMZN,"Amazon.com, Inc."
+2025-05-12,Stephanie Link,TFC,Truist Financial Corporation
+2025-05-12,Jim Lebenthal,C,Citigroup Inc.
+2025-05-13,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-05-13,Stephen Weiss,LDOS,"Leidos Holdings, Inc."
+2025-05-13,Amy Raskin,SAN,"Banco Santander, S.A."
+2025-05-13,Jim Lebenthal,GOOG,Alphabet Inc.
+2025-05-14,Jason Snipe,GS,"The Goldman Sachs Group, Inc."
+2025-05-14,Bryn Talkington,APO,"Apollo Global Management, Inc."
+2025-05-14,Joseph Terranova,ZM,"Zoom Communications, Inc."
+2025-05-14,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-05-15,Joshua Brown,KNSL,"Kinsale Capital Group, Inc."
+2025-05-15,Jenny Harrington,KNTK,Kinetik Holdings Inc.
+2025-05-15,Joseph Terranova,MSFT,Microsoft Corporation
+2025-05-15,Jim Lebenthal,ADBE,Adobe Inc.
+2025-05-16,Bryn Talkington,DELL,Dell Technologies Inc.
+2025-05-16,Rob Sechan,UNH,UnitedHealth Group Incorporated
+2025-05-16,Kevin Simpson,BA,The Boeing Company
+2025-05-16,Stephen Weiss,QXO,"QXO, Inc."
+2025-05-19,Jason Snipe,QCOM,QUALCOMM Incorporated
+2025-05-19,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-05-19,Joseph Terranova,TJX,"The TJX Companies, Inc."
+2025-05-20,Joshua Brown,MMM,3M Company
+2025-05-20,Brian Belski,SF,Stifel Financial Corp.
+2025-05-20,Jim Lebenthal,DIS,The Walt Disney Company
+2025-05-20,Stephanie Link,TFC,Truist Financial Corporation
+2025-05-21,Bryn Talkington,SLVR,Sprott Silver Miners & Physical Silver ETF
+2025-05-21,Karen Firestone,PAYC,"Paycom Software, Inc."
+2025-05-21,Joseph Terranova,DASH,"DoorDash, Inc."
+2025-05-22,Shannon Saccocia,XLE,State Street Energy Select Sector SPDR ETF
+2025-05-22,Joseph Terranova,MELI,"MercadoLibre, Inc."
+2025-05-22,Joshua Brown,TOST,"Toast, Inc."
+2025-05-22,Jim Lebenthal,DAL,"Delta Air Lines, Inc."
+2025-05-23,Kevin Simpson,NVDA,NVIDIA Corporation
+2025-05-23,Jim Lebenthal,CSCO,"Cisco Systems, Inc."
+2025-05-23,Jenny Harrington,RIO,Rio Tinto Group
+2025-05-23,Stephanie Link,CMG,"Chipotle Mexican Grill, Inc."
+2025-05-27,Joshua Brown,KNSL,"Kinsale Capital Group, Inc."
+2025-05-27,Jim Lebenthal,WAB,Westinghouse Air Brake Technologies Corporation
+2025-05-27,Joseph Terranova,URBN,"Urban Outfitters, Inc."
+2025-05-27,Shannon Saccocia,IYJ,iShares U.S. Industrials ETF
+2025-05-28,Sarat Sethi,INTU,Intuit Inc.
+2025-05-28,Malcolm Ethridge,CIBR,First Trust NASDAQ Cybersecurity ETF
+2025-05-28,Stephanie Link,VRT,Vertiv Holdings Co
+2025-05-28,Joseph Terranova,AXON,"Axon Enterprise, Inc."
+2025-05-29,Bryn Talkington,SLVR,Sprott Silver Miners & Physical Silver ETF
+2025-05-29,Bill Baruch,CCJ,Cameco Corporation
+2025-05-29,Jenny Harrington,DVN,Devon Energy Corporation
+2025-05-29,Joshua Brown,TOST,"Toast, Inc."
+2025-05-30,Kevin Simpson,META,"Meta Platforms, Inc."
+2025-05-30,Jim Lebenthal,ABBV,AbbVie Inc.
+2025-05-30,Stephanie Link,GAP,"The Gap, Inc."
+2025-05-30,Joshua Brown,JPM,JPMorgan Chase & Co.
+2025-06-02,Bryn Talkington,FCX,Freeport-McMoRan Inc.
+2025-06-02,Jim Lebenthal,LNG,"Cheniere Energy, Inc."
+2025-06-02,Stephen Weiss,FTAI,FTAI Aviation Ltd.
+2025-06-02,Joseph Terranova,BOX,"Box, Inc."
+2025-06-03,Jason Snipe,AXP,American Express Company
+2025-06-03,Stephanie Link,KKR,KKR & Co. Inc.
+2025-06-03,Joseph Terranova,DASH,"DoorDash, Inc."
+2025-06-04,Bryn Talkington,DELL,Dell Technologies Inc.
+2025-06-04,Sarat Sethi,EQIX,"Equinix, Inc."
+2025-06-04,Jim Lebenthal,WAB,Westinghouse Air Brake Technologies Corporation
+2025-06-04,Joseph Terranova,GWRE,"Guidewire Software, Inc."
+2025-06-05,Stephanie Link,GAP,"The Gap, Inc."
+2025-06-05,Jim Lebenthal,DIS,The Walt Disney Company
+2025-06-05,Bill Baruch,SLVR,Sprott Silver Miners & Physical Silver ETF
+2025-06-05,Brian Belski,ULTA,"Ulta Beauty, Inc."
+2025-06-06,Kevin Simpson,ELF,"e.l.f. Beauty, Inc."
+2025-06-06,Jenny Harrington,VTR,"Ventas, Inc."
+2025-06-06,Rob Sechan,JEF,Jefferies Financial Group Inc.
+2025-06-06,Joshua Brown,AMZN,"Amazon.com, Inc."
+2025-06-09,Stephanie Link,QCOM,QUALCOMM Incorporated
+2025-06-09,Joseph Terranova,BA,The Boeing Company
+2025-06-09,Rob Sechan,QCOM,QUALCOMM Incorporated
+2025-06-10,Malcolm Ethridge,AAPL,Apple Inc.
+2025-06-10,Ankur Crawford,GOOGL,Alphabet Inc.
+2025-06-10,Brenda Vingiello,PWR,"Quanta Services, Inc."
+2025-06-11,Stephen Weiss,QXO,"QXO, Inc."
+2025-06-11,Shannon Saccocia,XLE,State Street Energy Select Sector SPDR ETF
+2025-06-11,Jason Snipe,EVR,Evercore Inc.
+2025-06-11,Joseph Terranova,SCHW,The Charles Schwab Corporation
+2025-06-12,Kevin Simpson,JBL,Jabil Inc.
+2025-06-12,Malcolm Ethridge,SOFI,"SoFi Technologies, Inc."
+2025-06-12,Joshua Brown,KNSL,"Kinsale Capital Group, Inc."
+2025-06-13,Rob Sechan,GOOGL,Alphabet Inc.
+2025-06-13,Sarat Sethi,SLB,SLB N.V.
+2025-06-13,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-06-13,Shannon Saccocia,XLE,State Street Energy Select Sector SPDR ETF
+2025-06-16,Jim Lebenthal,DIS,The Walt Disney Company
+2025-06-16,Karen Firestone,AMAT,"Applied Materials, Inc."
+2025-06-16,Joseph Terranova,VST,Vistra Corp.
+2025-06-17,Joshua Brown,IEO,iShares U.S. Oil & Gas Exploration & Production ETF
+2025-06-17,Brian Belski,SO,The Southern Company
+2025-06-17,Shannon Saccocia,IYM,iShares U.S. Basic Materials ETF
+2025-06-17,Stephanie Link,UBER,"Uber Technologies, Inc."
+2025-06-18,Kevin Simpson,NVDA,NVIDIA Corporation
+2025-06-18,Bill Baruch,MTZ,"MasTec, Inc."
+2025-06-18,Joseph Terranova,JPM,JPMorgan Chase & Co.
+2025-06-18,Stephen Weiss,GS,"The Goldman Sachs Group, Inc."
+2025-06-20,Joshua Brown,RKT,"Rocket Companies, Inc."
+2025-06-20,Jason Snipe,KKR,KKR & Co. Inc.
+2025-06-20,Jenny Harrington,GXO,"GXO Logistics, Inc."
+2025-06-20,Stephanie Link,UBER,"Uber Technologies, Inc."
+2025-06-23,Bryn Talkington,BUG,Global X Cybersecurity ETF
+2025-06-24,Joshua Brown,JPM,JPMorgan Chase & Co.
+2025-06-24,Karen Firestone,APO,"Apollo Global Management, Inc."
+2025-06-24,Stephanie Link,MS,Morgan Stanley
+2025-06-24,Joseph Terranova,APH,Amphenol Corporation
+2025-06-25,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-06-25,Jenny Harrington,AXP,American Express Company
+2025-06-25,Joseph Terranova,AMD,"Advanced Micro Devices, Inc."
+2025-06-25,Jason Snipe,AMD,"Advanced Micro Devices, Inc."
+2025-06-26,Rob Sechan,NVS,Novartis AG
+2025-06-26,Shannon Saccocia,XLF,State Street Financial Select Sector SPDR ETF
+2025-06-26,Jenny Harrington,TSLX,"Sixth Street Specialty Lending, Inc."
+2025-06-26,Joshua Brown,AMZN,"Amazon.com, Inc."
+2025-06-27,Bryn Talkington,KKR,KKR & Co. Inc.
+2025-06-27,Brian Belski,LULU,lululemon athletica inc.
+2025-06-27,Kevin Simpson,META,"Meta Platforms, Inc."
+2025-06-27,Stephanie Link,ROK,"Rockwell Automation, Inc."
+2025-06-30,Jim Lebenthal,AMAT,"Applied Materials, Inc."
+2025-06-30,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-06-30,Joseph Terranova,MELI,"MercadoLibre, Inc."
+2025-07-01,Joshua Brown,AMZN,"Amazon.com, Inc."
+2025-07-01,Joseph Terranova,AXP,American Express Company
+2025-07-01,Jim Lebenthal,C,Citigroup Inc.
+2025-07-01,Stephanie Link,CMG,"Chipotle Mexican Grill, Inc."
+2025-07-02,Bryn Talkington,FCX,Freeport-McMoRan Inc.
+2025-07-02,Kevin Simpson,HON,Honeywell International Inc.
+2025-07-02,Stephen Weiss,CAT,Caterpillar Inc.
+2025-07-02,Joseph Terranova,AMGN,Amgen Inc.
+2025-07-07,Jim Lebenthal,BLK,"BlackRock, Inc."
+2025-07-07,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-07-07,Joseph Terranova,COST,Costco Wholesale Corporation
+2025-07-08,Brian Belski,SNV,Synovus Financial Corp.
+2025-07-08,Shannon Saccocia,XLF,State Street Financial Select Sector SPDR ETF
+2025-07-08,Jenny Harrington,NEE,"NextEra Energy, Inc."
+2025-07-08,Joseph Terranova,GILD,"Gilead Sciences, Inc."
+2025-07-09,Jim Lebenthal,WAB,Westinghouse Air Brake Technologies Corporation
+2025-07-09,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-07-09,Joseph Terranova,DASH,"DoorDash, Inc."
+2025-07-10,Jason Snipe,ORCL,Oracle Corporation
+2025-07-10,Joshua Brown,JOBY,"Joby Aviation, Inc."
+2025-07-10,Bryn Talkington,ABBV,AbbVie Inc.
+2025-07-10,Kevin Simpson,BA,The Boeing Company
+2025-07-11,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-07-11,Jim Lebenthal,DAL,"Delta Air Lines, Inc."
+2025-07-11,Jenny Harrington,ZBH,"Zimmer Biomet Holdings, Inc."
+2025-07-11,Stephanie Link,BA,The Boeing Company
+2025-07-14,Jim Lebenthal,LMT,Lockheed Martin Corporation
+2025-07-14,Stephen Weiss,NFLX,"Netflix, Inc."
+2025-07-14,Shannon Saccocia,IYJ,iShares U.S. Industrials ETF
+2025-07-14,Joseph Terranova,CHKP,Check Point Software Technologies Ltd.
+2025-07-15,Joshua Brown,TOST,"Toast, Inc."
+2025-07-15,Jason Snipe,EMR,Emerson Electric Co.
+2025-07-15,Jim Lebenthal,DIS,The Walt Disney Company
+2025-07-16,Sarat Sethi,JNJ,Johnson & Johnson
+2025-07-16,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-07-16,Joseph Terranova,ICE,"Intercontinental Exchange, Inc."
+2025-07-17,Bill Baruch,KGC,Kinross Gold Corporation
+2025-07-17,Joseph Terranova,CTAS,Cintas Corporation
+2025-07-17,Joshua Brown,AMZN,"Amazon.com, Inc."
+2025-07-18,Kevin Simpson,RTX,RTX Corporation
+2025-07-18,Stephen Weiss,NFLX,"Netflix, Inc."
+2025-07-18,Jenny Harrington,FCX,Freeport-McMoRan Inc.
+2025-07-21,Sarat Sethi,MS,Morgan Stanley
+2025-07-21,Stephen Weiss,NFLX,"Netflix, Inc."
+2025-07-21,Amy Raskin,CGNX,Cognex Corporation
+2025-07-21,Joseph Terranova,EQT,EQT Corporation
+2025-07-22,Joshua Brown,RKT,"Rocket Companies, Inc."
+2025-07-22,Stephanie Link,TOL,"Toll Brothers, Inc."
+2025-07-23,Bryn Talkington,ABBV,AbbVie Inc.
+2025-07-23,Stephen Weiss,UBER,"Uber Technologies, Inc."
+2025-07-23,Jenny Harrington,WU,The Western Union Company
+2025-07-23,Joseph Terranova,LYV,"Live Nation Entertainment, Inc."
+2025-07-24,Kevin Simpson,HON,Honeywell International Inc.
+2025-07-24,Malcolm Ethridge,DLR,"Digital Realty Trust, Inc."
+2025-07-24,Jim Lebenthal,AMAT,"Applied Materials, Inc."
+2025-07-24,Joshua Brown,CG,The Carlyle Group Inc.
+2025-07-25,Rob Sechan,GILD,"Gilead Sciences, Inc."
+2025-07-25,Jason Snipe,BX,Blackstone Inc.
+2025-07-25,Jim Lebenthal,DIS,The Walt Disney Company
+2025-07-25,Stephanie Link,V,Visa Inc.
+2025-07-28,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-07-28,Jim Lebenthal,WYNN,"Wynn Resorts, Limited"
+2025-07-29,Joshua Brown,SPOT,Spotify Technology S.A.
+2025-07-29,Kevin Simpson,IBM,International Business Machines Corporation
+2025-07-29,Stephanie Link,VRT,Vertiv Holdings Co
+2025-07-29,Joseph Terranova,WELL,Welltower Inc.
+2025-07-30,Bryn Talkington,DELL,Dell Technologies Inc.
+2025-07-30,Joseph Terranova,TW,Tradeweb Markets Inc.
+2025-07-30,Jim Lebenthal,GOOGL,Alphabet Inc.
+2025-07-30,Stephen Weiss,GOOGL,Alphabet Inc.
+2025-07-31,Malcolm Ethridge,D,"Dominion Energy, Inc."
+2025-07-31,Bill Baruch,AEM,Agnico Eagle Mines Limited
+2025-07-31,Jenny Harrington,ETD,Ethan Allen Interiors Inc.
+2025-07-31,Joshua Brown,SHAK,Shake Shack Inc.
+2025-08-01,Bill Baruch,NFLX,"Netflix, Inc."
+2025-08-01,Jason Snipe,PANW,"Palo Alto Networks, Inc."
+2025-08-01,Jim Lebenthal,RIG,Transocean Ltd.
+2025-08-04,Jim Lebenthal,DAL,"Delta Air Lines, Inc."
+2025-08-04,Joseph Terranova,IDXX,"IDEXX Laboratories, Inc."
+2025-08-04,Shannon Saccocia,XLF,State Street Financial Select Sector SPDR ETF
+2025-08-04,Bryn Talkington,TSLA,"Tesla, Inc."
+2025-08-05,Joshua Brown,AAPL,Apple Inc.
+2025-08-05,Joseph Terranova,MELI,"MercadoLibre, Inc."
+2025-08-05,Jim Lebenthal,PCG,PG&E Corporation
+2025-08-05,Anastasia Amoroso,IYJ,iShares U.S. Industrials ETF
+2025-08-06,Stephen Weiss,UBER,"Uber Technologies, Inc."
+2025-08-06,Malcolm Ethridge,RKT,"Rocket Companies, Inc."
+2025-08-06,Joseph Terranova,WMT,Walmart Inc.
+2025-08-06,Liz Young,XLF,State Street Financial Select Sector SPDR ETF
+2025-08-07,Jenny Harrington,FLNG,FLEX LNG Ltd.
+2025-08-07,Stephanie Link,PANW,"Palo Alto Networks, Inc."
+2025-08-07,Joshua Brown,AAPL,Apple Inc.
+2025-08-08,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-08-08,Kevin Simpson,TJX,"The TJX Companies, Inc."
+2025-08-08,Jim Lebenthal,WYNN,"Wynn Resorts, Limited"
+2025-08-11,Stephen Weiss,NFLX,"Netflix, Inc."
+2025-08-11,Jim Lebenthal,WYNN,"Wynn Resorts, Limited"
+2025-08-11,Joseph Terranova,BKE,"The Buckle, Inc."
+2025-08-11,Liz Young,XLV,State Street Health Care Select Sector SPDR ETF
+2025-08-12,Brian Belski,BLD,TopBuild Corp.
+2025-08-12,Jim Lebenthal,PCG,PG&E Corporation
+2025-08-12,Stephanie Link,DHI,"D.R. Horton, Inc."
+2025-08-12,Joseph Terranova,AAPL,Apple Inc.
+2025-08-13,Joshua Brown,TOST,"Toast, Inc."
+2025-08-13,Sarat Sethi,TDG,TransDigm Group Incorporated
+2025-08-13,Karen Firestone,TMO,Thermo Fisher Scientific Inc.
+2025-08-13,Joseph Terranova,AMZN,"Amazon.com, Inc."
+2025-08-14,Bryn Talkington,FCX,Freeport-McMoRan Inc.
+2025-08-14,Kevin Simpson,AXP,American Express Company
+2025-08-14,Shannon Saccocia,XLF,State Street Financial Select Sector SPDR ETF
+2025-08-15,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-08-15,Rob Sechan,IBM,International Business Machines Corporation
+2025-08-15,Bryn Talkington,ARE,"Alexandria Real Estate Equities, Inc."
+2025-08-15,Jenny Harrington,KMX,"CarMax, Inc."
+2025-08-18,Jim Lebenthal,GOOGL,Alphabet Inc.
+2025-08-18,Stephen Weiss,UBER,"Uber Technologies, Inc."
+2025-08-18,Shannon Saccocia,XLY,State Street Consumer Discretionary Select Sector SPDR ETF
+2025-08-18,Joseph Terranova,APH,Amphenol Corporation
+2025-08-19,Joshua Brown,RKT,"Rocket Companies, Inc."
+2025-08-19,Jim Lebenthal,CSCO,"Cisco Systems, Inc."
+2025-08-19,Liz Young,IGV,iShares Expanded Tech-Software Sector ETF
+2025-08-19,Joseph Terranova,PODD,Insulet Corporation
+2025-08-20,Bryn Talkington,CRM,"Salesforce, Inc."
+2025-08-20,Karen Firestone,AXP,American Express Company
+2025-08-20,Joseph Terranova,TJX,"The TJX Companies, Inc."
+2025-08-21,Malcolm Ethridge,NOW,"ServiceNow, Inc."
+2025-08-21,Jenny Harrington,BMY,Bristol-Myers Squibb Company
+2025-08-21,Joshua Brown,LYV,"Live Nation Entertainment, Inc."
+2025-08-22,Stephen Weiss,VRT,Vertiv Holdings Co
+2025-08-22,Kevin Simpson,DKNG,DraftKings Inc.
+2025-08-22,Jason Snipe,PANW,"Palo Alto Networks, Inc."
+2025-08-22,Jim Lebenthal,C,Citigroup Inc.
+2025-08-25,Stephen Weiss,GOOGL,Alphabet Inc.
+2025-08-25,Jim Lebenthal,LMT,Lockheed Martin Corporation
+2025-08-25,Shannon Saccocia,XLC,State Street Communication Services Select Sector SPDR ETF
+2025-08-26,Brian Belski,KEY,KeyCorp
+2025-08-26,Malcolm Ethridge,BUG,Global X Cybersecurity ETF
+2025-08-26,Jenny Harrington,MAR,"Marriott International, Inc."
+2025-08-26,Joshua Brown,TOST,"Toast, Inc."
+2025-08-28,Stephen Weiss,FTAI,FTAI Aviation Ltd.
+2025-08-28,Kevin Simpson,AAPL,Apple Inc.
+2025-08-28,Bill Baruch,CDE,"Coeur Mining, Inc."
+2025-08-28,Joseph Terranova,PSX,Phillips 66
+2025-08-29,Jason Snipe,NOW,"ServiceNow, Inc."
+2025-08-29,Amy Raskin,REGN,"Regeneron Pharmaceuticals, Inc."
+2025-08-29,Jim Lebenthal,CSCO,"Cisco Systems, Inc."
+2025-08-29,Stephanie Link,TFC,Truist Financial Corporation
+2025-09-02,Joshua Brown,NFLX,"Netflix, Inc."
+2025-09-02,Jason Snipe,AMZN,"Amazon.com, Inc."
+2025-09-02,Jenny Harrington,MPLX,MPLX LP
+2025-09-02,Joseph Terranova,VLO,Valero Energy Corporation
+2025-09-03,Jim Lebenthal,AZN,AstraZeneca PLC
+2025-09-03,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-09-03,Joseph Terranova,GLW,Corning Incorporated
+2025-09-04,Brian Belski,RJF,"Raymond James Financial, Inc."
+2025-09-04,Bill Baruch,BRK-B,Berkshire Hathaway Inc.
+2025-09-04,Bryn Talkington,APO,"Apollo Global Management, Inc."
+2025-09-04,Joshua Brown,AMZN,"Amazon.com, Inc."
+2025-09-05,Stephanie Link,UBER,"Uber Technologies, Inc."
+2025-09-05,Kevin Simpson,HD,"The Home Depot, Inc."
+2025-09-05,Malcolm Ethridge,RKT,"Rocket Companies, Inc."
+2025-09-05,Jim Lebenthal,C,Citigroup Inc.
+2025-09-08,Bryn Talkington,KKR,KKR & Co. Inc.
+2025-09-08,Jim Lebenthal,GOOGL,Alphabet Inc.
+2025-09-08,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-09-08,Joseph Terranova,TKO,"TKO Group Holdings, Inc."
+2025-09-09,Stephanie Link,LEN,Lennar Corporation
+2025-09-09,Joshua Brown,RKT,"Rocket Companies, Inc."
+2025-09-10,Jim Lebenthal,CRH,CRH plc
+2025-09-10,Jason Snipe,MSFT,Microsoft Corporation
+2025-09-11,Joshua Brown,RKT,"Rocket Companies, Inc."
+2025-09-11,Jim Lebenthal,DAL,"Delta Air Lines, Inc."
+2025-09-11,Sarat Sethi,TECK,Teck Resources Limited
+2025-09-11,Joseph Terranova,TSLA,"Tesla, Inc."
+2025-09-12,Bryn Talkington,BMNR,"Bitmine Immersion Technologies, Inc."
+2025-09-12,Rob Sechan,NRG,"NRG Energy, Inc."
+2025-09-12,Kevin Simpson,CME,CME Group Inc.
+2025-09-12,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-09-15,Bryn Talkington,APO,"Apollo Global Management, Inc."
+2025-09-15,Stephen Weiss,FTAI,FTAI Aviation Ltd.
+2025-09-15,Joseph Terranova,UBER,"Uber Technologies, Inc."
+2025-09-15,Shannon Saccocia,IYM,iShares U.S. Basic Materials ETF
+2025-09-16,Joshua Brown,EA,Electronic Arts Inc.
+2025-09-16,Jim Lebenthal,LMT,Lockheed Martin Corporation
+2025-09-16,Stephanie Link,COF,Capital One Financial Corporation
+2025-09-17,Jim Lebenthal,QCOM,QUALCOMM Incorporated
+2025-09-17,Stephen Weiss,VRT,Vertiv Holdings Co
+2025-09-17,Joseph Terranova,NTRS,Northern Trust Corporation
+2025-09-17,Liz Young,FXI,iShares China Large-Cap ETF
+2025-09-18,Malcolm Ethridge,SOFI,"SoFi Technologies, Inc."
+2025-09-18,Jenny Harrington,CWEN,"Clearway Energy, Inc."
+2025-09-18,Joseph Terranova,XBI,State Street SPDR S&P Biotech ETF
+2025-09-18,Joshua Brown,CRWD,"CrowdStrike Holdings, Inc."
+2025-09-19,Kevin Simpson,AXP,American Express Company
+2025-09-19,Jason Snipe,BX,Blackstone Inc.
+2025-09-19,Stephanie Link,LEN,Lennar Corporation
+2025-09-22,Sarat Sethi,INTU,Intuit Inc.
+2025-09-22,Stephanie Link,COIN,"Coinbase Global, Inc."
+2025-09-22,Joseph Terranova,UBER,"Uber Technologies, Inc."
+2025-09-22,Bryn Talkington,BMNR,"Bitmine Immersion Technologies, Inc."
+2025-09-26,Jim Lebenthal,XOM,ExxonMobil Holdings Corporation
+2025-09-26,Jason Snipe,AMZN,"Amazon.com, Inc."
+2025-09-26,Stephen Weiss,META,"Meta Platforms, Inc."
+2025-09-29,Bryn Talkington,ETHA,iShares Ethereum Trust ETF
+2025-09-29,Stephen Weiss,LDOS,"Leidos Holdings, Inc."
+2025-09-29,Jenny Harrington,SCHW,The Charles Schwab Corporation
+2025-09-29,Joseph Terranova,MS,Morgan Stanley
+2025-09-30,Joshua Brown,NVDA,NVIDIA Corporation
+2025-09-30,Jim Lebenthal,LMT,Lockheed Martin Corporation
+2025-09-30,Amy Raskin,REGN,"Regeneron Pharmaceuticals, Inc."
+2025-09-30,Joseph Terranova,APH,Amphenol Corporation
+2025-10-01,Stephen Weiss,NFLX,"Netflix, Inc."
+2025-10-01,Liz Young,XAR,State Street SPDR S&P Aerospace & Defense ETF
+2025-10-01,Joseph Terranova,AAPL,Apple Inc.
+2025-10-02,Jason Snipe,NOW,"ServiceNow, Inc."
+2025-10-02,Jim Lebenthal,VRTX,Vertex Pharmaceuticals Incorporated
+2025-10-03,Joshua Brown,ACHR,Archer Aviation Inc.
+2025-10-03,Rob Sechan,JPM,JPMorgan Chase & Co.
+2025-10-03,Amy Raskin,SHEL,Shell plc
+2025-10-03,Stephanie Link,COF,Capital One Financial Corporation
+2025-10-06,Joseph Terranova,MOS,The Mosaic Company
+2025-10-06,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-10-06,Anastasia Amoroso,XLF,State Street Financial Select Sector SPDR ETF
+2025-10-07,Joshua Brown,VEEV,Veeva Systems Inc.
+2025-10-07,Jim Lebenthal,PCG,PG&E Corporation
+2025-10-07,Jenny Harrington,CAG,"Conagra Brands, Inc."
+2025-10-07,Joseph Terranova,EQT,EQT Corporation
+2025-10-08,Bryn Talkington,MSFT,Microsoft Corporation
+2025-10-08,Jim Lebenthal,ONON,On Holding AG
+2025-10-08,Stephen Weiss,NFLX,"Netflix, Inc."
+2025-10-08,Joseph Terranova,ANET,"Arista Networks, Inc."
+2025-10-09,Jim Lebenthal,ORCL,Oracle Corporation
+2025-10-09,Joshua Brown,NFLX,"Netflix, Inc."
+2025-10-09,Bill Baruch,UUP,Invesco DB US Dollar Index Bullish Fund
+2025-10-09,Shannon Saccocia,IYM,iShares U.S. Basic Materials ETF
+2025-10-10,Rob Sechan,GILD,"Gilead Sciences, Inc."
+2025-10-10,Kevin Simpson,RKLB,Rocket Lab Corporation
+2025-10-10,Jason Snipe,PANW,"Palo Alto Networks, Inc."
+2025-10-10,Stephanie Link,COIN,"Coinbase Global, Inc."
+2025-10-13,Stephen Weiss,AMZN,"Amazon.com, Inc."
+2025-10-13,Jenny Harrington,TSLX,"Sixth Street Specialty Lending, Inc."
+2025-10-13,Joseph Terranova,DDOG,"Datadog, Inc."
+2025-10-13,Jim Lebenthal,ABBV,AbbVie Inc.
+2025-10-15,Joseph Terranova,TER,"Teradyne, Inc."
+2025-10-15,Stephanie Link,VSXY,Victoria's Secret & Co.
+2025-10-15,Jim Lebenthal,BLK,"BlackRock, Inc."
+2025-10-15,Liz Young,IWM,iShares Russell 2000 ETF
+2025-10-16,Joshua Brown,TOST,"Toast, Inc."
+2025-10-16,Karen Firestone,SCHW,The Charles Schwab Corporation
+2025-10-16,Malcolm Ethridge,MSFT,Microsoft Corporation
+2025-10-16,Bill Baruch,GS,"The Goldman Sachs Group, Inc."
+2025-10-17,Jason Snipe,AZO,"AutoZone, Inc."
+2025-10-17,Stephen Weiss,FTAI,FTAI Aviation Ltd.
+2025-10-17,Bryn Talkington,BMNR,"Bitmine Immersion Technologies, Inc."
+2025-10-20,Amy Raskin,ILMN,"Illumina, Inc."
+2025-10-20,Jenny Harrington,COLB,"Columbia Banking System, Inc."
+2025-10-20,Joseph Terranova,BABA,Alibaba Group Holding Limited
+2025-10-20,Joshua Brown,JPM,JPMorgan Chase & Co.
+2025-10-21,Jason Snipe,ABBV,AbbVie Inc.
+2025-10-21,Jim Lebenthal,QCOM,QUALCOMM Incorporated
+2025-10-21,Stephanie Link,APTV,Aptiv PLC
+2025-10-21,Joseph Terranova,PANW,"Palo Alto Networks, Inc."
+2025-10-22,Joseph Terranova,MRK,"Merck & Co., Inc."
+2025-10-22,Stephen Weiss,VRT,Vertiv Holdings Co
+2025-10-22,Sarat Sethi,TMO,Thermo Fisher Scientific Inc.
+2025-10-23,Bryn Talkington,CRM,"Salesforce, Inc."
+2025-10-23,Malcolm Ethridge,IBM,International Business Machines Corporation
+2025-10-23,Stephanie Link,LVS,Las Vegas Sands Corp.
+2025-10-23,Joshua Brown,NFLX,"Netflix, Inc."
+2025-10-24,Rob Sechan,GOOGL,Alphabet Inc.
+2025-10-24,Kevin Simpson,AMZN,"Amazon.com, Inc."
+2025-10-24,Jim Lebenthal,CRH,CRH plc
+2025-10-24,Stephen Weiss,IBIT,iShares Bitcoin Trust ETF
+2025-10-27,Bryn Talkington,GOOGL,Alphabet Inc.
+2025-10-27,Stephen Weiss,AMZN,"Amazon.com, Inc."
+2025-10-27,Joseph Terranova,LRCX,Lam Research Corporation
+2025-10-27,Jim Lebenthal,GOOGL,Alphabet Inc.
+2025-10-28,Joseph Terranova,PYPL,"PayPal Holdings, Inc."
+2025-10-28,Joshua Brown,NFLX,"Netflix, Inc."
+2025-10-28,Anastasia Amoroso,QQQ,Invesco QQQ Trust
+2025-10-28,Richard Saperstein,VST,Vistra Corp.
+2025-10-29,Karen Firestone,NEE,"NextEra Energy, Inc."
+2025-10-29,Liz Young,IGV,iShares Expanded Tech-Software Sector ETF
+2025-10-29,Stephen Weiss,FTAI,FTAI Aviation Ltd.
+2025-10-30,Jim Lebenthal,CSCO,"Cisco Systems, Inc."
+2025-10-30,Stephanie Link,PWR,"Quanta Services, Inc."
+2025-10-30,Joseph Terranova,TT,Trane Technologies plc
+2025-10-31,Joshua Brown,RKT,"Rocket Companies, Inc."
+2025-10-31,Kevin Simpson,META,"Meta Platforms, Inc."
+2025-10-31,Jim Lebenthal,CLF,Cleveland-Cliffs Inc.
+2025-10-31,Jenny Harrington,BMY,Bristol-Myers Squibb Company
+2025-11-03,Stephen Weiss,META,"Meta Platforms, Inc."
+2025-11-03,Karen Firestone,SPGI,S&P Global Inc.
+2025-11-03,Joseph Terranova,IDXX,"IDEXX Laboratories, Inc."
+2025-11-04,Joseph Terranova,PODD,Insulet Corporation
+2025-11-04,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-11-04,Jim Lebenthal,APO,"Apollo Global Management, Inc."
+2025-11-05,Bryn Talkington,DELL,Dell Technologies Inc.
+2025-11-05,Malcolm Ethridge,MSFT,Microsoft Corporation
+2025-11-05,Joseph Terranova,WELL,Welltower Inc.
+2025-11-05,Shannon Saccocia,IYC,iShares US Consumer Discretionary ETF
+2025-11-06,Joseph Terranova,AAPL,Apple Inc.
+2025-11-06,Bryn Talkington,RSPA,Invesco S&P 500 Equal Weight Income Advantage ETF
+2025-11-06,Jason Snipe,PANW,"Palo Alto Networks, Inc."
+2025-11-06,Jenny Harrington,WU,The Western Union Company
+2025-11-07,Joshua Brown,JOBY,"Joby Aviation, Inc."
+2025-11-07,Kevin Simpson,MPC,Marathon Petroleum Corporation
+2025-11-07,Jim Lebenthal,XOM,ExxonMobil Holdings Corporation
+2025-11-07,Stephen Weiss,META,"Meta Platforms, Inc."
+2025-11-10,Sarat Sethi,MS,Morgan Stanley
+2025-11-10,Jim Lebenthal,CSCO,"Cisco Systems, Inc."
+2025-11-10,Amy Raskin,AA,Alcoa Corporation
+2025-11-10,Stephen Weiss,FTAI,FTAI Aviation Ltd.
+2025-11-11,Joshua Brown,PSX,Phillips 66
+2025-11-11,Stephanie Link,APTV,Aptiv PLC
+2025-11-11,Joseph Terranova,PH,Parker-Hannifin Corporation
+2025-11-12,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-11-12,Karen Firestone,HQY,"HealthEquity, Inc."
+2025-11-12,Liz Young,XBI,State Street SPDR S&P Biotech ETF
+2025-11-12,Joseph Terranova,CBOE,"Cboe Global Markets, Inc."
+2025-11-13,Jenny Harrington,KMB,Kimberly-Clark Corporation
+2025-11-13,Bill Baruch,TMO,Thermo Fisher Scientific Inc.
+2025-11-13,Karen Firestone,WAB,Westinghouse Air Brake Technologies Corporation
+2025-11-13,Joshua Brown,BRK-B,Berkshire Hathaway Inc.
+2025-11-14,Brian Belski,RJF,"Raymond James Financial, Inc."
+2025-11-14,Malcolm Ethridge,ZS,"Zscaler, Inc."
+2025-11-14,Stephanie Link,PANW,"Palo Alto Networks, Inc."
+2025-11-17,Stephen Weiss,UNH,UnitedHealth Group Incorporated
+2025-11-17,Sarat Sethi,TMO,Thermo Fisher Scientific Inc.
+2025-11-17,Shannon Saccocia,IYH,iShares U.S. Healthcare ETF
+2025-11-17,Joseph Terranova,MNST,Monster Beverage Corporation
+2025-11-18,Joshua Brown,NFLX,"Netflix, Inc."
+2025-11-18,Malcolm Ethridge,NVDA,NVIDIA Corporation
+2025-11-18,Jim Lebenthal,LMT,Lockheed Martin Corporation
+2025-11-18,Jenny Harrington,FCX,Freeport-McMoRan Inc.
+2025-11-19,Bryn Talkington,FCX,Freeport-McMoRan Inc.
+2025-11-19,Jim Lebenthal,CSCO,"Cisco Systems, Inc."
+2025-11-19,Stephanie Link,TER,"Teradyne, Inc."
+2025-11-19,Joseph Terranova,MCK,McKesson Corporation
+2025-11-20,Bryn Talkington,GOOGL,Alphabet Inc.
+2025-11-20,Stephanie Link,SBUX,Starbucks Corporation
+2025-11-20,Joseph Terranova,WELL,Welltower Inc.
+2025-11-21,Rob Sechan,VST,Vistra Corp.
+2025-11-21,Stephen Weiss,LDOS,"Leidos Holdings, Inc."
+2025-11-21,Joshua Brown,ZM,"Zoom Communications, Inc."
+2025-11-21,Kevin Simpson,WMT,Walmart Inc.
+2025-11-24,Stephen Weiss,TSM,Taiwan Semiconductor Manufacturing Company Limited
+2025-11-24,Joseph Terranova,XBI,State Street SPDR S&P Biotech ETF
+2025-11-24,Joshua Brown,AAPL,Apple Inc.
+2025-11-25,Joshua Brown,UBER,"Uber Technologies, Inc."
+2025-11-25,Brian Belski,HUM,Humana Inc.
+2025-11-25,Stephanie Link,ZTS,Zoetis Inc.
+2025-11-25,Joseph Terranova,ZM,"Zoom Communications, Inc."
+2025-11-26,Stephen Weiss,FTAI,FTAI Aviation Ltd.
+2025-11-26,Jason Snipe,ETN,Eaton Corporation plc
+2025-11-26,Joseph Terranova,XBI,State Street SPDR S&P Biotech ETF
+2025-11-28,Malcolm Ethridge,CRWD,"CrowdStrike Holdings, Inc."
+2025-11-28,Stephanie Link,AMZN,"Amazon.com, Inc."
+2025-11-28,Joseph Terranova,PLD,"Prologis, Inc."
+2025-11-28,Jenny Harrington,BUG,Global X Cybersecurity ETF
+2025-12-01,Bryn Talkington,NKE,"NIKE, Inc."
+2025-12-01,Malcolm Ethridge,AMZN,"Amazon.com, Inc."
+2025-12-01,Jim Lebenthal,DAL,"Delta Air Lines, Inc."
+2025-12-01,Joseph Terranova,AAPL,Apple Inc.
+2025-12-02,Joshua Brown,NFLX,"Netflix, Inc."
+2025-12-02,Stephen Weiss,ORCL,Oracle Corporation
+2025-12-02,Shannon Saccocia,XLF,State Street Financial Select Sector SPDR ETF
+2025-12-02,Joseph Terranova,TER,"Teradyne, Inc."
+2025-12-03,Bryn Talkington,ETHA,iShares Ethereum Trust ETF
+2025-12-03,Jim Lebenthal,C,Citigroup Inc.
+2025-12-03,Stephanie Link,BAC,Bank of America Corporation
+2025-12-03,Joseph Terranova,EQT,EQT Corporation
+2025-12-04,Karen Firestone,AXP,American Express Company
+2025-12-04,Stephanie Link,SLB,SLB N.V.
+2025-12-04,Malcolm Ethridge,RKT,"Rocket Companies, Inc."
+2025-12-04,Joseph Terranova,PH,Parker-Hannifin Corporation
+2025-12-05,Kevin Simpson,NU,Nu Holdings Ltd.
+2025-12-05,Jenny Harrington,DIS,The Walt Disney Company
+2025-12-05,Jim Lebenthal,VRTX,Vertex Pharmaceuticals Incorporated
+2025-12-08,Shannon Saccocia,IYC,iShares US Consumer Discretionary ETF
+2025-12-08,Bryn Talkington,GPIQ,Goldman Sachs Nasdaq-100 Premiu
+2025-12-08,Joseph Terranova,MPWR,"Monolithic Power Systems, Inc."
+2025-12-08,Amy Raskin,ASND,Ascendis Pharma A/S
+2025-12-09,Stephanie Link,IBM,International Business Machines Corporation
+2025-12-09,Joshua Brown,TOST,"Toast, Inc."
+2025-12-09,Brian Belski,BLD,TopBuild Corp.
+2025-12-09,Joseph Terranova,APP,AppLovin Corporation
+2025-12-10,Jenny Harrington,SBRA,"Sabra Health Care REIT, Inc."
+2025-12-10,Karen Firestone,APO,"Apollo Global Management, Inc."
+2025-12-10,Joseph Terranova,SPOT,Spotify Technology S.A.
+2025-12-11,Bill Baruch,CDE,"Coeur Mining, Inc."
+2025-12-11,Malcolm Ethridge,NTSK,"Netskope, Inc."
+2025-12-11,Jim Lebenthal,DAL,"Delta Air Lines, Inc."
+2025-12-11,Joshua Brown,ZM,"Zoom Communications, Inc."
+2025-12-12,Brenda Vingiello,PANW,"Palo Alto Networks, Inc."
+2025-12-12,Kevin Simpson,MU,"Micron Technology, Inc."
+2025-12-12,Jim Lebenthal,ADBE,Adobe Inc.
+2025-12-15,Joseph Terranova,C,Citigroup Inc.
+2025-12-15,Stephen Weiss,LDOS,"Leidos Holdings, Inc."
+2025-12-15,Shannon Saccocia,IYJ,iShares U.S. Industrials ETF
+2025-12-16,Malcolm Ethridge,GS,"The Goldman Sachs Group, Inc."
+2025-12-16,Stephanie Link,COF,Capital One Financial Corporation
+2025-12-16,Joseph Terranova,MNST,Monster Beverage Corporation
+2025-12-17,Jason Snipe,MSFT,Microsoft Corporation
+2025-12-17,Stephen Weiss,NFLX,"Netflix, Inc."
+2025-12-17,Joseph Terranova,TWLO,Twilio Inc.
+2025-12-17,Rob Sechan,ABBV,AbbVie Inc.
+2025-12-18,Bill Baruch,ISRG,"Intuitive Surgical, Inc."
+2025-12-18,Stephanie Link,DKS,"DICK'S Sporting Goods, Inc."
+2025-12-18,Joshua Brown,TOST,"Toast, Inc."
+2025-12-19,Jim Lebenthal,DIS,The Walt Disney Company
+2025-12-19,Stephen Weiss,BABA,Alibaba Group Holding Limited
+2025-12-19,Jenny Harrington,AMCR,Amcor plc
+2025-12-22,Joshua Brown,TOST,"Toast, Inc."
+2025-12-22,Stephen Weiss,UBER,"Uber Technologies, Inc."
+2025-12-22,Liz Young,IYM,iShares U.S. Basic Materials ETF
+2025-12-22,Joseph Terranova,XBI,State Street SPDR S&P Biotech ETF
+2025-12-23,Jenny Harrington,MRP,"Millrose Properties, Inc."
+2025-12-23,Joshua Brown,XOM,ExxonMobil Holdings Corporation
+2025-12-23,Stephanie Link,INDA,iShares MSCI India ETF
+2025-12-23,Joseph Terranova,NVDA,NVIDIA Corporation
+2025-12-26,Kevin Simpson,V,Visa Inc.
+2025-12-26,Bryn Talkington,GPIQ,Goldman Sachs Nasdaq-100 Premiu
+2025-12-26,Jim Lebenthal,CRH,CRH plc
+2025-12-29,Bryn Talkington,OTF,Blue Owl Technology Finance Corp.
+2025-12-29,Jim Lebenthal,LMT,Lockheed Martin Corporation
+2025-12-29,Joseph Terranova,CB,Chubb Limited
+2025-12-30,Joshua Brown,CRWD,"CrowdStrike Holdings, Inc."
+2025-12-30,Jason Snipe,AMZN,"Amazon.com, Inc."
+2025-12-30,Jim Lebenthal,PCG,PG&E Corporation
+2025-12-31,Jim Lebenthal,ADBE,Adobe Inc.
+2025-12-31,Stephen Weiss,BABA,Alibaba Group Holding Limited
+2025-12-31,Joseph Terranova,GS,"The Goldman Sachs Group, Inc."
